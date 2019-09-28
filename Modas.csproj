@@ -57,7 +57,9 @@
     <Content Remove="wwwroot\js\bootstrap.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="appsettings.json" />
+    <None Include="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="wwwroot\css\all.css" />
     <None Include="wwwroot\css\all.min.css" />
     <None Include="wwwroot\webfonts\fa-brands-400.eot" />
