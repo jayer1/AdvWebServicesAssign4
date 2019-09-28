@@ -10,7 +10,7 @@
 *.sln.docstates
 
 # JSG
-appsettings.json
+#appsettings.json
 Migrations/*
 
 # User-specific files (MonoDevelop/Xamarin Studio)
