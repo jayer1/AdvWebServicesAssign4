@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="appsettings.json" />
     <Content Remove="wwwroot\css\all.css" />
     <Content Remove="wwwroot\css\all.min.css" />
     <Content Remove="wwwroot\webfonts\fa-brands-400.eot" />
@@ -57,9 +56,6 @@
     <Content Remove="wwwroot\js\bootstrap.min.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="appsettings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="wwwroot\css\all.css" />
     <None Include="wwwroot\css\all.min.css" />
     <None Include="wwwroot\webfonts\fa-brands-400.eot" />
@@ -100,5 +96,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Models\FakeEventRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>
